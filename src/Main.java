@@ -24,7 +24,7 @@ public class Main {
         return stack;
     }
 
-    //Задача 3. Проверка на правильность скобочной структуры
+    //Задача 3. Проверка на правильности скобочной структуры
     public static boolean brackets(String s) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
